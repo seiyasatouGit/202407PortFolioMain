@@ -1,0 +1,75 @@
+/* グローバルスタイル */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ヘッダー */
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* セクション */
+.intro, .buttons, .news, .footer {
+    padding: 20px;
+}
+
+/* ボタン */
+.buttons .btn {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+/* ニュースセクション */
+.news-item {
+    background-color: white;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* フッター */
+.footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+}
+
+/* レスポンシブ対応 */
+@media (min-width: 600px) {
+    .news {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .news-item {
+        width: 48%;
+    }
+}
+
+@media (min-width: 900px) {
+    .header, .intro, .buttons, .news, .footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .buttons .btn {
+        margin: 10px;
+        padding: 15px 30px;
+    }
+
+    .news-item {
+        width: 30%;
+    }
+}
