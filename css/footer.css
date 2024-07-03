@@ -1,0 +1,37 @@
+
+
+
+
+.contact {
+    font-size: 24px;
+    color: rgba(10, 16, 17, 0.445);
+}
+
+.contact div{
+    background-color: antiquewhite;
+    border: solid 1px #333;
+}
+
+
+.footer-box {
+    display: flex;
+    background-color: rgba(240, 248, 255, 0.918);
+    color: black;
+    font-size: 16px;
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    width: 200px;
+    margin: 0 auto;
+    margin-left: 1000px;
+    border-radius: 40%  #333;
+    border: solid 1px;
+    box-shadow: #333;
+    text-align: center;
+    align-items: end;
+    padding: 30px;
+    direction: none;
+}
+
+.footer-box a {
+    color: blue;
+}

@@ -8,7 +8,7 @@ body {
 
 /* ヘッダー */
 .header {
-    background-color: black;
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -43,6 +43,9 @@ body {
     background-color: lightgray;
     text-align: center;
     padding: 20px;
+
+    margin-top: 200px;
+    padding-top: 100px;
 }
 
 /* レスポンシブ対応 */
@@ -60,7 +63,8 @@ body {
 
 @media (min-width: 900px) {
     .header, .intro, .buttons, .news, .footer {
-        max-width: 900px;
+        /* max-width: 900px; */
+        max-width: 100%;
         margin: 0 auto;
     }
 
